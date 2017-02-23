@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		A2CE202A1E5F4AE60080741E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CE20291E5F4AE60080741E /* main.m */; };
 		A2CE202D1E5F4AE60080741E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CE202C1E5F4AE60080741E /* AppDelegate.m */; };
-		A2CE20301E5F4AE60080741E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CE202F1E5F4AE60080741E /* ViewController.m */; };
 		A2CE20331E5F4AE60080741E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CE20311E5F4AE60080741E /* Main.storyboard */; };
 		A2CE20351E5F4AE60080741E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CE20341E5F4AE60080741E /* Assets.xcassets */; };
 		A2CE20381E5F4AE60080741E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CE20361E5F4AE60080741E /* LaunchScreen.storyboard */; };
 		A2CE20431E5F4AE60080741E /* Wavy_Collection_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CE20421E5F4AE60080741E /* Wavy_Collection_ViewTests.m */; };
+		A2CE20541E5F70AE0080741E /* WavyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CE20531E5F70AE0080741E /* WavyCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +31,6 @@
 		A2CE20291E5F4AE60080741E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2CE202B1E5F4AE60080741E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2CE202C1E5F4AE60080741E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A2CE202E1E5F4AE60080741E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A2CE202F1E5F4AE60080741E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A2CE20321E5F4AE60080741E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2CE20341E5F4AE60080741E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2CE20371E5F4AE60080741E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +38,8 @@
 		A2CE203E1E5F4AE60080741E /* Wavy-Collection-ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wavy-Collection-ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CE20421E5F4AE60080741E /* Wavy_Collection_ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wavy_Collection_ViewTests.m; sourceTree = "<group>"; };
 		A2CE20441E5F4AE60080741E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CE20521E5F70AE0080741E /* WavyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavyCollectionViewController.h; sourceTree = "<group>"; };
+		A2CE20531E5F70AE0080741E /* WavyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavyCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,9 @@
 		A2CE201C1E5F4AE60080741E = {
 			isa = PBXGroup;
 			children = (
+				A2CE20511E5F6BDC0080741E /* View */,
+				A2CE204F1E5F6BC50080741E /* Model */,
+				A2CE204D1E5F6BA60080741E /* Control */,
 				A2CE20271E5F4AE60080741E /* Wavy-Collection-View */,
 				A2CE20411E5F4AE60080741E /* Wavy-Collection-ViewTests */,
 				A2CE20261E5F4AE60080741E /* Products */,
@@ -83,12 +86,8 @@
 			children = (
 				A2CE202B1E5F4AE60080741E /* AppDelegate.h */,
 				A2CE202C1E5F4AE60080741E /* AppDelegate.m */,
-				A2CE202E1E5F4AE60080741E /* ViewController.h */,
-				A2CE202F1E5F4AE60080741E /* ViewController.m */,
 				A2CE20311E5F4AE60080741E /* Main.storyboard */,
-				A2CE20341E5F4AE60080741E /* Assets.xcassets */,
 				A2CE20361E5F4AE60080741E /* LaunchScreen.storyboard */,
-				A2CE20391E5F4AE60080741E /* Info.plist */,
 				A2CE20281E5F4AE60080741E /* Supporting Files */,
 			);
 			path = "Wavy-Collection-View";
@@ -97,6 +96,8 @@
 		A2CE20281E5F4AE60080741E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A2CE20391E5F4AE60080741E /* Info.plist */,
+				A2CE20341E5F4AE60080741E /* Assets.xcassets */,
 				A2CE20291E5F4AE60080741E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -109,6 +110,29 @@
 				A2CE20441E5F4AE60080741E /* Info.plist */,
 			);
 			path = "Wavy-Collection-ViewTests";
+			sourceTree = "<group>";
+		};
+		A2CE204D1E5F6BA60080741E /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE20521E5F70AE0080741E /* WavyCollectionViewController.h */,
+				A2CE20531E5F70AE0080741E /* WavyCollectionViewController.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		A2CE204F1E5F6BC50080741E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A2CE20511E5F6BDC0080741E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,8 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2CE20301E5F4AE60080741E /* ViewController.m in Sources */,
 				A2CE202D1E5F4AE60080741E /* AppDelegate.m in Sources */,
+				A2CE20541E5F70AE0080741E /* WavyCollectionViewController.m in Sources */,
 				A2CE202A1E5F4AE60080741E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "daveaugerinos.Wavy-Collection-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -366,6 +391,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "daveaugerinos.Wavy-Collection-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

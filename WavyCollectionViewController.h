@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WavyCollectionViewController.h
 //  Wavy-Collection-View
 //
 //  Created by Dave Augerinos on 2017-02-23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WavyCollectionViewController : UICollectionViewController
 
 @end
-
