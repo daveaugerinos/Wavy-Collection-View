@@ -1,5 +1,5 @@
 //
-//  WavyCollectionViewController.h
+//  WavyCell.h
 //  Wavy-Collection-View
 //
 //  Created by Dave Augerinos on 2017-02-23.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WavyCell.h"
-#import "WavyFlowLayout.h"
 
-@interface WavyCollectionViewController : UICollectionViewController
+@interface WavyCell : UICollectionViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *cellIDLabel;
 
 @end
