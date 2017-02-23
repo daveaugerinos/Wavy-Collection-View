@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "WavyCell.h"
 #import "WavyFlowLayout.h"
+#import "WavyFlowLayout.h"
 
 @interface WavyCollectionViewController : UICollectionViewController
 
