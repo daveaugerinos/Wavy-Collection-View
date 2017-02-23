@@ -87,16 +87,10 @@
 		A2CE20271E5F4AE60080741E /* Wavy-Collection-View */ = {
 			isa = PBXGroup;
 			children = (
-				A2CE202B1E5F4AE60080741E /* AppDelegate.h */,
-				A2CE202C1E5F4AE60080741E /* AppDelegate.m */,
-				A2CE20521E5F70AE0080741E /* WavyCollectionViewController.h */,
-				A2CE20531E5F70AE0080741E /* WavyCollectionViewController.m */,
-				A2CE205F1E5F77AF0080741E /* WavyCell.h */,
-				A2CE20601E5F77AF0080741E /* WavyCell.m */,
-				A2CE20561E5F73810080741E /* WavyFlowLayout.h */,
-				A2CE20571E5F73810080741E /* WavyFlowLayout.m */,
-				A2CE20311E5F4AE60080741E /* Main.storyboard */,
-				A2CE20361E5F4AE60080741E /* LaunchScreen.storyboard */,
+				A2CE20621E5F951C0080741E /* UI */,
+				A2CE20641E5F95420080741E /* Controller */,
+				A2CE20651E5F954C0080741E /* Model */,
+				A2CE20661E5F95D80080741E /* View */,
 				A2CE20281E5F4AE60080741E /* Supporting Files */,
 			);
 			path = "Wavy-Collection-View";
@@ -119,6 +113,44 @@
 				A2CE20441E5F4AE60080741E /* Info.plist */,
 			);
 			path = "Wavy-Collection-ViewTests";
+			sourceTree = "<group>";
+		};
+		A2CE20621E5F951C0080741E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE20311E5F4AE60080741E /* Main.storyboard */,
+				A2CE20361E5F4AE60080741E /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A2CE20641E5F95420080741E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE20521E5F70AE0080741E /* WavyCollectionViewController.h */,
+				A2CE20531E5F70AE0080741E /* WavyCollectionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A2CE20651E5F954C0080741E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE202B1E5F4AE60080741E /* AppDelegate.h */,
+				A2CE202C1E5F4AE60080741E /* AppDelegate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A2CE20661E5F95D80080741E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE205F1E5F77AF0080741E /* WavyCell.h */,
+				A2CE20601E5F77AF0080741E /* WavyCell.m */,
+				A2CE20561E5F73810080741E /* WavyFlowLayout.h */,
+				A2CE20571E5F73810080741E /* WavyFlowLayout.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
